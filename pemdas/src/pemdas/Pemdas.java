@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Pemdas {
     
     public static void main(String[] args) {
-        int i, j, temp, data, jumlah,hasil; 
+        int i, j, temp, data, jumlah; 
         int pilih;
         char ulang;
         boolean ulanglagi = true;
@@ -106,7 +106,7 @@ public class Pemdas {
         System.out.println("\nNilai rata-rata: "+avg);
         System.out.println("Nilai maks: "+max);
         System.out.println("Nilai min: "+min);
-        System.out.println("\nApakah anda ingin kembali kemenu awal? y/n");
+        System.out.print("\nIngin kembali keawal?(y/n) :");
                 ulang = input.next().charAt(0);
                 switch(ulang){
                     case 'y':
