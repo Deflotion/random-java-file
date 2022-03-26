@@ -112,7 +112,7 @@ public class Tugas_pemdas {
                 }
                 
                 //membuat output
-                System.out.print("Data sebelum diurutkan: ");
+                System.out.print("\nData sebelum diurutkan: ");
                 //membuat looping untuk mengambil data array
                 for(i=0;i<jumlah;i++){
                     System.out.print(array[i]+",");
