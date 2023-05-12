@@ -50,7 +50,7 @@ public class login extends javax.swing.JFrame {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Login Petugas");
 
-        jLabel2.setText("Kode Petugas");
+        jLabel2.setText("Username");
 
         jLabel3.setText("Password");
 
